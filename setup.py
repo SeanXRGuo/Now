@@ -12,6 +12,7 @@ def install(use_symlink=False, enable=True):
     if enable:
         cm = ConfigManager()
         cm.update('notebook', {"load_extensions": {"livereveal/main": True}})
+        cm.update('livereveal', {'scroll': True})
 
 def main():
     import argparse
