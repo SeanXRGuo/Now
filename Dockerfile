@@ -9,7 +9,4 @@ USER root
 # RUN bash Anaconda3-2.4.1-Linux-x86_64.sh -b -p /usr -f && \
 RUN conda info --envs
 RUN conda install -c damianavila82 rise
-
-USER main
-
 RUN pip install -r requirements.txt
