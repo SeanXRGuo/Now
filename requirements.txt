@@ -1,0 +1,4 @@
+gensim
+re
+nltk
+ipywidgets
