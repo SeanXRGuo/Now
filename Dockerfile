@@ -12,4 +12,4 @@ RUN conda install -c damianavila82 rise
 
 USER main
 
-RUN /usr/bin/pip install -r requirements.txt
+RUN /home/main/anaconda2/envs/python3/bin/pip install -r requirements.txt
