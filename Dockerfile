@@ -12,4 +12,4 @@ RUN python setup.py install
 
 USER main
 
-RUN home/main/anaconda2/envs/python3/bin/pip install -r requirements.txt
+RUN /home/main/anaconda2/envs/python3/bin/pip install -r requirements.txt
